@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  justify-content: flex;
+}
+nav ul {
+  list-style-type: none;
+  background-color:  #4C6663;
+  overflow: hidden;
+  padding: 1em;
+}
+
+nav li{
+  display: inline;
+}
+nav li a{
+  color:  #CCDDB7;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1em;
+  
+}
+nav li a:hover {
+  background-color:  #C3A7AF;
+}
+
+.imageone img{
+  max-width: 100%;
+  height: auto;
+  margin-right: 120px;
+  border: 20px solid  #CCDDB7;
+  
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+ .text-section{
+    background-color: #4C6663;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+ 
+  }
+  body {background-color: #CCDDB7;}
+
+  #Hello{
+    color:  #4C6663;
+  }
+
+  .text-block{
+    width: 300px;
+    border: 10px solid #FFFFFF;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    border: 15px solid  #CCDDB7;
+
+  }
+  .image-container img{
+    max-width: 320px;
+    margin: auto;
+
+  }
+  .image-containerimg:last-child
+  {
+    margin-bottom: 0px;
+  }
+
+.image-grid{
+  display: grid;
+  grid-template-columns:
+  repeat(1, 3fr);
+  gap: 20px;
+}
+.image-grid img{
+width: 50%;
+height: auto; 
+align-items: baseline;
+border-radius: 5%;
+}
+
+.text-grid{
+  display: grid;
+  grid-template-columns: repeat(1,3fr);
+  gap: 20px;
+}
+
+.image-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 
+    (250px, 1fr));
+  gap: 20px;
+}
+.image-grid img{
+width: 50%;
+height: auto; 
+align-items: flex-end;
+border-radius: 5%;
+
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+.image-grid h2{
+  color: #4C6663;
+  align: center
+}
+.image-grid p{
+  color: #4C6663;
+
+}
+body {
+  font-family: "Trirong", serif;
+}
+
+table li {
+  list-style-type: none;
+}
+
+table h3{
+  text-decoration: underline ;
+  text-decoration-thickness: 2px;
+}
+
+#MacOS{
+  width: 70%;
+}
+
+#linux{
+text-align: center;
+color:  #4C6663;
+}
